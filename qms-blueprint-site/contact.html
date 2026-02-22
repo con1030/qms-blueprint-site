@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QMS Blueprint – Contact</title>
+  <meta name="description" content="Get in touch to request customization of our ISO 9001 documentation template. Fill out the form to tell us about your organisation." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">QMS Blueprint</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="why-iso-9001.html">Why ISO 9001</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="https://qmsblueprint.lemonsqueezy.com/checkout/buy/f3d3dd98-e240-4f27-a096-01d8b63be3c0" class="cta">Purchase Template</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>Use the form below to request a quote for customization or to ask questions about our documentation package. Fields marked with * are required.</p>
+        <div class="card">
+          <form id="contactForm">
+            <div>
+              <label for="firstName">First Name *</label>
+              <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div>
+              <label for="lastName">Last Name *</label>
+              <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div>
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="companyName">Company Name</label>
+              <input type="text" id="companyName" name="companyName">
+            </div>
+            <div>
+              <label for="website">Website</label>
+              <input type="url" id="website" name="website">
+            </div>
+            <div>
+              <label for="industry">Industry</label>
+              <input type="text" id="industry" name="industry">
+            </div>
+            <div>
+              <label for="location">Location (City/State/Country)</label>
+              <input type="text" id="location" name="location">
+            </div>
+            <div>
+              <label for="timeframe">Certification Target Timeframe</label>
+              <select id="timeframe" name="timeframe">
+                <option value="0-3 months">0-3 months</option>
+                <option value="3-6 months">3-6 months</option>
+                <option value="6-12 months">6-12 months</option>
+                <option value="12+ months">12+ months</option>
+                <option value="Not sure">Not sure</option>
+              </select>
+            </div>
+            <div>
+              <label for="description">Brief description of what you do *</label>
+              <textarea id="description" name="description" required></textarea>
+            </div>
+            <div>
+              <label for="existingDocs">Any existing documentation you want integrated?</label>
+              <select id="existingDocs" name="existingDocs">
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+              </select>
+            </div>
+            <div>
+              <label for="preferredContact">Preferred contact method</label>
+              <select id="preferredContact" name="preferredContact">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+              </select>
+            </div>
+            <div id="phoneGroup" style="display:none;">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div>
+              <label for="message">Message / questions</label>
+              <textarea id="message" name="message"></textarea>
+            </div>
+            <div>
+              <button type="submit">Submit</button>
+            </div>
+            <p id="formStatus" style="font-weight:600;"></p>
+          </form>
+        </div>
+        <p style="font-style:italic; font-size:0.9rem; margin-top:1rem;">Documentation only. No consulting, training, auditing or certification guarantees.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© QMS Blueprint. Documentation only. No consulting, training, auditing or certification guarantees.</p>
+    </div>
+  </footer>
+  <script src="js/contact.js"></script>
+</body>
+</html>
