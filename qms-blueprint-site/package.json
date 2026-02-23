@@ -1,0 +1,9 @@
+{
+  "name": "qms-blueprint-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "QMS Blueprint marketing site (static) with Netlify function for contact form",
+  "dependencies": {
+    "nodemailer": "^6.9.13"
+  }
+}
